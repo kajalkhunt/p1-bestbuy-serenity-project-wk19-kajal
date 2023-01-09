@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="20" failures="0" name="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" skipped="0" tests="20" time="158.14" timestamp="2023-01-09T21:47:34.764Z[Europe/London]"><testcase classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" name="Data Driven test for adding multiple products to the application"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)&#13;
+com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="159.97" tests="20" errors="20" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\harsp\IdeaProjects\Serenity Cucumber\p2-sw9-bestbuy-serenity-project-harshit-patel"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\harsp\IdeaProjects\Serenity Cucumber\p2-sw9-bestbuy-serenity-project-harshit-patel"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\harsp\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;â€œC:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\harsp\AppData\Local\Microsoft\WindowsApps;C:\Users\harsp\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\harsp"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="harsp"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="createMultipleProducts[10]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="8.93">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Mahmud",
+    "type": "Oty",
+    "price": 5.49,
+    "shipping": 20,
+    "upc": "AB",
+    "description": "ShopRite Allergy",
+    "manufacturer": "Photofeed",
+    "model": "Mianwali Air Base",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Elianore",
+    "type": "Greenroyd",
+    "price": 5.49,
+    "shipping": 10,
+    "upc": "GH",
+    "description": "Spironolactone",
+    "manufacturer": "Midel",
+    "model": "Windarling Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Vivian",
+    "type": "Earles",
+    "price": 5.49,
+    "shipping": 21,
+    "upc": "OP",
+    "description": "Furosemide",
+    "manufacturer": "Camimbo",
+    "model": "Miho Yonago Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Nikolos",
+    "type": "Kelwick",
+    "price": 5.49,
+    "shipping": 5,
+    "upc": "CS",
+    "description": "SANITIZER",
+    "manufacturer": "Rhycero",
+    "model": "Palmerston North Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Reinhold",
+    "type": "Jovis",
+    "price": 5.49,
+    "shipping": 8,
+    "upc": "OP",
+    "description": "Invisible Solid Xtreme Anti-Perspirant Deodorant",
+    "manufacturer": "Vimbo",
+    "model": "Beaver County Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Damaris",
+    "type": "Jouannisson",
+    "price": 5.49,
+    "shipping": 11,
+    "upc": "IJ",
+    "description": "Treatment Set TS329905",
+    "manufacturer": "Browsetype",
+    "model": "Kagi Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Kizzee",
+    "type": "Dodshon",
+    "price": 5.49,
+    "shipping": 3,
+    "upc": "AB",
+    "description": "Loblolly Pine",
+    "manufacturer": "Jatri",
+    "model": "Gustavus Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Lana",
+    "type": "Lambrechts",
+    "price": 5.49,
+    "shipping": 7,
+    "upc": "AB",
+    "description": "White Birch",
+    "manufacturer": "Lajo",
+    "model": "Volk Field",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Roselin",
+    "type": "Rennick",
+    "price": 5.49,
+    "shipping": 18,
+    "upc": "EF",
+    "description": "Sore Throat headache",
+    "manufacturer": "Zava",
+    "model": "Forlì Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Dennison",
+    "type": "Welham",
+    "price": 5.49,
+    "shipping": 12,
+    "upc": "GH",
+    "description": "No7 Stay Perfect Foundation Sunscreen SPF 15 Truffle",
+    "manufacturer": "Tanoodle",
+    "model": "Huayuan Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Erroll",
+    "type": "Cuberley",
+    "price": 5.49,
+    "shipping": 17,
+    "upc": "OP",
+    "description": "GERI-LANTA MAXIMUM STRENGTH",
+    "manufacturer": "Realcube",
+    "model": "Umiujaq Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Suzann",
+    "type": "Hof",
+    "price": 5.49,
+    "shipping": 9,
+    "upc": "GH",
+    "description": "CAPTOPRIL",
+    "manufacturer": "Omba",
+    "model": "Loring Seaplane Base",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Aubine",
+    "type": "Eary",
+    "price": 5.49,
+    "shipping": 4,
+    "upc": "CS",
+    "description": "Sword Fish",
+    "manufacturer": "Devbug",
+    "model": "Naknek Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Benny",
+    "type": "Lutwyche",
+    "price": 5.49,
+    "shipping": 13,
+    "upc": "CS",
+    "description": "TYLENOL Sinus Congestion And Pain Severe",
+    "manufacturer": "Avamm",
+    "model": "Dos Lagunas Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Andy",
+    "type": "Tomaino",
+    "price": 5.49,
+    "shipping": 15,
+    "upc": "IJ",
+    "description": "Milk of Magnesia",
+    "manufacturer": "Skibox",
+    "model": "Lumbo Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Loree",
+    "type": "Ollier",
+    "price": 5.49,
+    "shipping": 19,
+    "upc": "OP",
+    "description": "Therapeutic Relief",
+    "manufacturer": "Digitube",
+    "model": "Attu Heliport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+]]></system-out>
+    <system-err><![CDATA[1524 [CreateProductDataDrivenTest-2-thread-16] INFO net.serenitybdd.core.Serenity - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+-------------------------------------------------------------------------------------
+
+1709 [CreateProductDataDrivenTest-2-thread-13] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1791 [CreateProductDataDrivenTest-2-thread-13] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[12]
+-------------------------------------------------------------------
+1791 [CreateProductDataDrivenTest-2-thread-13] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+1799 [CreateProductDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1800 [CreateProductDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[0]
+-------------------------------------------------------------------
+1800 [CreateProductDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
+1804 [CreateProductDataDrivenTest-2-thread-9] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1805 [CreateProductDataDrivenTest-2-thread-9] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[8]
+-------------------------------------------------------------------
+1805 [CreateProductDataDrivenTest-2-thread-9] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 3
+1811 [CreateProductDataDrivenTest-2-thread-14] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1812 [CreateProductDataDrivenTest-2-thread-14] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[13]
+-------------------------------------------------------------------
+1812 [CreateProductDataDrivenTest-2-thread-14] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 4
+1821 [CreateProductDataDrivenTest-2-thread-4] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1822 [CreateProductDataDrivenTest-2-thread-4] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[3]
+-------------------------------------------------------------------
+1822 [CreateProductDataDrivenTest-2-thread-4] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 5
+1823 [CreateProductDataDrivenTest-2-thread-2] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1825 [CreateProductDataDrivenTest-2-thread-2] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[1]
+-------------------------------------------------------------------
+1825 [CreateProductDataDrivenTest-2-thread-2] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 6
+1828 [CreateProductDataDrivenTest-2-thread-10] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1830 [CreateProductDataDrivenTest-2-thread-10] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[9]
+-------------------------------------------------------------------
+1830 [CreateProductDataDrivenTest-2-thread-10] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 7
+1837 [CreateProductDataDrivenTest-2-thread-5] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1845 [CreateProductDataDrivenTest-2-thread-5] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[4]
+-------------------------------------------------------------------
+1845 [CreateProductDataDrivenTest-2-thread-5] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 8
+1848 [CreateProductDataDrivenTest-2-thread-3] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1850 [CreateProductDataDrivenTest-2-thread-3] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[2]
+-------------------------------------------------------------------
+1850 [CreateProductDataDrivenTest-2-thread-3] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 9
+1854 [CreateProductDataDrivenTest-2-thread-7] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1855 [CreateProductDataDrivenTest-2-thread-7] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[6]
+-------------------------------------------------------------------
+1855 [CreateProductDataDrivenTest-2-thread-7] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 10
+1857 [CreateProductDataDrivenTest-2-thread-15] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1858 [CreateProductDataDrivenTest-2-thread-15] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[14]
+-------------------------------------------------------------------
+1858 [CreateProductDataDrivenTest-2-thread-15] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 11
+1867 [CreateProductDataDrivenTest-2-thread-16] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1869 [CreateProductDataDrivenTest-2-thread-16] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[15]
+-------------------------------------------------------------------
+1869 [CreateProductDataDrivenTest-2-thread-16] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 12
+1876 [CreateProductDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1877 [CreateProductDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[7]
+-------------------------------------------------------------------
+1877 [CreateProductDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 13
+1879 [CreateProductDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1881 [CreateProductDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[5]
+-------------------------------------------------------------------
+1881 [CreateProductDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 14
+1883 [CreateProductDataDrivenTest-2-thread-11] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1884 [CreateProductDataDrivenTest-2-thread-11] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[10]
+-------------------------------------------------------------------
+1884 [CreateProductDataDrivenTest-2-thread-11] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 15
+1887 [CreateProductDataDrivenTest-2-thread-12] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+1889 [CreateProductDataDrivenTest-2-thread-12] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[11]
+-------------------------------------------------------------------
+1890 [CreateProductDataDrivenTest-2-thread-12] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 16
+]]></system-err>
+  </testcase>
+  <testcase name="createMultipleProducts[12]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="8.931">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[14]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="8.932">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[1]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="8.934">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[9]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="8.934">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[7]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="8.934">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[13]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="8.934">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[11]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="8.934">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[15]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="8.935">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[2]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="8.935">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[5]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="8.937">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[8]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="9.064">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+    <system-err><![CDATA[10843 [CreateProductDataDrivenTest-2-thread-6] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+10942 [CreateProductDataDrivenTest-2-thread-6] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+10942 [CreateProductDataDrivenTest-2-thread-6] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+]]></system-err>
+  </testcase>
+  <testcase name="createMultipleProducts[6]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="9.066">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[4]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="9.069">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[3]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="9.069">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[0]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="9.069">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+  <testcase name="createMultipleProducts[17]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="4.071">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Dotty",
+    "type": "Hatrick",
+    "price": 5.49,
+    "shipping": 23,
+    "upc": "EF",
+    "description": "Nosmotea",
+    "manufacturer": "Dazzlesphere",
+    "model": "Guymon Municipal Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Correna",
+    "type": "Georgeot",
+    "price": 5.49,
+    "shipping": 22,
+    "upc": "CS",
+    "description": "Pioglitazone",
+    "manufacturer": "Tagpad",
+    "model": "Kaitaia Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Jorry",
+    "type": "Ethington",
+    "price": 5.49,
+    "shipping": 24,
+    "upc": "CS",
+    "description": "EAD",
+    "manufacturer": "Bluezoom",
+    "model": "Lonorore Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Simonne",
+    "type": "Gammidge",
+    "price": 5.49,
+    "shipping": 25,
+    "upc": "KL",
+    "description": "Digoxin",
+    "manufacturer": "Kazu",
+    "model": "Phitsanulok Airport",
+    "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg"
+}
+]]></system-out>
+    <system-err><![CDATA[10951 [CreateProductDataDrivenTest-2-thread-15] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+10952 [CreateProductDataDrivenTest-2-thread-15] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+10952 [CreateProductDataDrivenTest-2-thread-15] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+10955 [CreateProductDataDrivenTest-2-thread-8] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+10956 [CreateProductDataDrivenTest-2-thread-8] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+10956 [CreateProductDataDrivenTest-2-thread-8] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+10962 [CreateProductDataDrivenTest-2-thread-10] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+10963 [CreateProductDataDrivenTest-2-thread-10] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+10963 [CreateProductDataDrivenTest-2-thread-10] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+10965 [CreateProductDataDrivenTest-2-thread-13] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+10965 [CreateProductDataDrivenTest-2-thread-13] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+10966 [CreateProductDataDrivenTest-2-thread-13] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+10967 [CreateProductDataDrivenTest-2-thread-2] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+10968 [CreateProductDataDrivenTest-2-thread-2] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+10968 [CreateProductDataDrivenTest-2-thread-2] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+10969 [CreateProductDataDrivenTest-2-thread-15] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+10970 [CreateProductDataDrivenTest-2-thread-15] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[17]
+-------------------------------------------------------------------
+10970 [CreateProductDataDrivenTest-2-thread-15] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 17
+10971 [CreateProductDataDrivenTest-2-thread-14] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+10971 [CreateProductDataDrivenTest-2-thread-14] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+10972 [CreateProductDataDrivenTest-2-thread-14] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+10974 [CreateProductDataDrivenTest-2-thread-12] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+10974 [CreateProductDataDrivenTest-2-thread-12] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+10974 [CreateProductDataDrivenTest-2-thread-12] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+10979 [CreateProductDataDrivenTest-2-thread-16] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+10979 [CreateProductDataDrivenTest-2-thread-16] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+10979 [CreateProductDataDrivenTest-2-thread-16] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+10982 [CreateProductDataDrivenTest-2-thread-3] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+10982 [CreateProductDataDrivenTest-2-thread-3] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+10982 [CreateProductDataDrivenTest-2-thread-3] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+10987 [CreateProductDataDrivenTest-2-thread-9] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+10987 [CreateProductDataDrivenTest-2-thread-9] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+10987 [CreateProductDataDrivenTest-2-thread-9] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+10991 [CreateProductDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+10992 [CreateProductDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[16]
+-------------------------------------------------------------------
+10992 [CreateProductDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 18
+10996 [CreateProductDataDrivenTest-2-thread-7] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+10997 [CreateProductDataDrivenTest-2-thread-7] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+10997 [CreateProductDataDrivenTest-2-thread-7] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+11007 [CreateProductDataDrivenTest-2-thread-5] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+11008 [CreateProductDataDrivenTest-2-thread-5] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+11008 [CreateProductDataDrivenTest-2-thread-5] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+11012 [CreateProductDataDrivenTest-2-thread-4] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+11012 [CreateProductDataDrivenTest-2-thread-4] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+11012 [CreateProductDataDrivenTest-2-thread-4] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+11015 [CreateProductDataDrivenTest-2-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+11017 [CreateProductDataDrivenTest-2-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+11017 [CreateProductDataDrivenTest-2-thread-1] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+11020 [CreateProductDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+11021 [CreateProductDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[18]
+-------------------------------------------------------------------
+11021 [CreateProductDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 19
+11028 [CreateProductDataDrivenTest-2-thread-10] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create product data driven test
+11029 [CreateProductDataDrivenTest-2-thread-10] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProducts[19]
+-------------------------------------------------------------------
+11029 [CreateProductDataDrivenTest-2-thread-10] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 20
+11030 [CreateProductDataDrivenTest-2-thread-11] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+11031 [CreateProductDataDrivenTest-2-thread-11] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+11031 [CreateProductDataDrivenTest-2-thread-11] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+]]></system-err>
+  </testcase>
+  <testcase name="createMultipleProducts[16]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="4.088">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+    <system-err><![CDATA[15105 [CreateProductDataDrivenTest-2-thread-15] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+15105 [CreateProductDataDrivenTest-2-thread-15] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+15105 [CreateProductDataDrivenTest-2-thread-15] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+]]></system-err>
+  </testcase>
+  <testcase name="createMultipleProducts[18]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="4.102">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+    <system-err><![CDATA[15121 [CreateProductDataDrivenTest-2-thread-6] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Data Driven test for adding multiple products to the application
+---------------------------------------------------------------------
+15122 [CreateProductDataDrivenTest-2-thread-6] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP POST
+15122 [CreateProductDataDrivenTest-2-thread-6] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+]]></system-err>
+  </testcase>
+  <testcase name="createMultipleProducts[19]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="4.102">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest.createMultipleProducts(CreateProductDataDrivenTest.java:36)
+</error>
+  </testcase>
+</testsuite>
