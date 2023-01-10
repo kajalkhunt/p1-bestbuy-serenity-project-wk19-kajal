@@ -38,7 +38,7 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0],
+                ['Passing', 1],
                 
                 ['Pending', 0],
                 
@@ -46,7 +46,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors',  1],
+                ['Errors',  0],
                 ['Compromised',  0]
             ]
         ], {
@@ -77,18 +77,18 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 / 5 tests passed' },
+                {label: '5 / 5 tests passed' },
                 {label: '0 / 5 tests pending'},
                 {label: '0 / 5 tests not executed'},
                 {label: '0 / 5 tests failed'},
-                {label: '5 / 5 errors'},
+                {label: '0 / 5 errors'},
                 {label: '0 / 5 compromised tests'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0],
+                ['Passing', 1],
                 
                 ['Pending', 0],
                 
@@ -96,7 +96,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors', 1],
+                ['Errors', 0],
                 ['Compromised', 0],
             ]
         ], {
@@ -128,11 +128,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 / 5 tests passed (0% of all test steps)' },
+                {label: '5 / 5 tests passed (1% of all test steps)' },
                 {label: '0 / 5 tests pending'},
                 {label: '0 / 5 tests not executed'},
                 {label: '0 / 5 tests failed (0% of all test steps)'},
-                {label: '5 / 5 errors (1% of all test steps)'}
+                {label: '0 / 5 errors (0% of all test steps)'}
             ]
         });
 
@@ -198,7 +198,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-01-2023 21:48</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-01-2023 21:48</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -218,19 +218,9 @@
 
                     <span class="test-count"> |
                         5
-                            <a href="9c488ccab54525187d3bd9f71038ac8d32bd2b4cde2eca6d81d7a224e483fe38.html">unsuccessful</a>
+                            <a href="06384d0a80c961b3278cfe3f4c9651d597924129a1d1a84b46395b7de37d0942.html">passed</a>
                         
-                    </span>(
-                    <span class="test-count">
-                        0
-                            <a href="0e778bc51051662e5b97a204a4fdb85832ccb0c728446b2d6d1004f86953d625.html">failed</a>
-                        ,
                     </span>
-                    <span class="test-count">
-                        5
-                            <a href="11c262df743b75a0b3c485102b4867d4ca7b1fde055cb2b44e1c0c6c446fbfcc.html">with errors</a>
-                        
-                    </span>)
 
                 
 
@@ -282,8 +272,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>5</td>
-            <td>0 (0%)</td>
             <td>5 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -298,14 +288,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>5</td>
-            <td>0 (0%)</td>
             <td>5 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">21 seconds</td>
+                <td colspan="5">1 seconds</td>
         </tr>
         </body>
     </table>
@@ -328,7 +318,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 6) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 9) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -361,8 +351,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>5</td>
-            <td>0 (0%)</td>
             <td>5 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -377,14 +367,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>5</td>
-            <td>0 (0%)</td>
             <td>5 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">21 seconds</td>
+                <td colspan="5">1 seconds</td>
         </tr>
         </body>
     </table>
@@ -428,119 +418,119 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="96657be8e576fd63d4b7b20ce61e23573f8b4b10599fd2aff19df87c2b4fea38.html" class="ellipsis"
-                                           title="Creating new product Connect exception: Connection refused...">
+                                           title="Creating new product ">
                                             Creating new product
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">6</td>
+                                <td class="SUCCESS-text">7</td>
 
 
-                                <td class="ERROR-text" data-sort="2023-01-09 21:48:13">21:48:13</td>
+                                <td class="SUCCESS-text" data-sort="2023-01-10 21:48:24">21:48:24</td>
 
-                                <td class="ERROR-text">4.26</td>
+                                <td class="SUCCESS-text">0.32</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="556dc1298ada724ae8f2ebb048ff7fb06170552a64ed1c6fb744066b6212a5f5.html" class="ellipsis"
-                                           title="Verify product is created by getting product info by given Id Connect exception: Connection refused...">
+                                           title="Verify product is created by getting product info by given Id ">
                                             Verify product is created by getting product info by given Id
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">4</td>
+                                <td class="SUCCESS-text">5</td>
 
 
-                                <td class="ERROR-text" data-sort="2023-01-09 21:48:18">21:48:18</td>
+                                <td class="SUCCESS-text" data-sort="2023-01-10 21:48:24">21:48:24</td>
 
-                                <td class="ERROR-text">4.1</td>
+                                <td class="SUCCESS-text">0.07</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="55b79b75b4455ddd5dbfabed1ce14baf776a16610cbe5bd64e815e43ca346caa.html" class="ellipsis"
-                                           title="Updating newly added product detail Connect exception: Connection refused...">
+                                           title="Updating newly added product detail ">
                                             Updating newly added product detail
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">5</td>
+                                <td class="SUCCESS-text">6</td>
 
 
-                                <td class="ERROR-text" data-sort="2023-01-09 21:48:22">21:48:22</td>
+                                <td class="SUCCESS-text" data-sort="2023-01-10 21:48:24">21:48:24</td>
 
-                                <td class="ERROR-text">4.13</td>
+                                <td class="SUCCESS-text">0.15</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="5e5e664b3bee4d08c6639284ff37232a2e58dda7cf769785ed2463651ab0c2ed.html" class="ellipsis"
-                                           title="Deleting store by given Id Connect exception: Connection refused...">
+                                           title="Deleting store by given Id ">
                                             Deleting store by given Id
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">5</td>
+                                <td class="SUCCESS-text">8</td>
 
 
-                                <td class="ERROR-text" data-sort="2023-01-09 21:48:26">21:48:26</td>
+                                <td class="SUCCESS-text" data-sort="2023-01-10 21:48:24">21:48:24</td>
 
-                                <td class="ERROR-text">4.12</td>
+                                <td class="SUCCESS-text">0.18</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="172e0f18b2919f279e95892123f475681a450cd13b7e4a41447b8ab44d6c2f1e.html" class="ellipsis"
-                                           title="CURD TEST Connect exception: Connection refused...">
+                                           title="CURD TEST ">
                                             CURD TEST
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">10</td>
+                                <td class="SUCCESS-text">19</td>
 
 
-                                <td class="ERROR-text" data-sort="2023-01-09 21:48:30">21:48:30</td>
+                                <td class="SUCCESS-text" data-sort="2023-01-10 21:48:25">21:48:25</td>
 
-                                <td class="ERROR-text">4.13</td>
+                                <td class="SUCCESS-text">0.34</td>
                             </tr>
                         </tbody>
                     </table>

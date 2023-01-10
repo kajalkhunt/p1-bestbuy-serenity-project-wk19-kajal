@@ -5,4 +5,5 @@ com\bestbuy\cucumber\steps\ProductStepdefs.class
 com\bestbuy\testbase\TestBase.class
 com\bestbuy\bestbuyinfo\ProductCURDTest.class
 com\bestbuy\cucumber\CucumberRunner.class
+com\bestbuy\bestbuyinfo\CreateStoreDataDrivenTest.class
 com\bestbuy\cucumber\steps\StoreStepdefs.class

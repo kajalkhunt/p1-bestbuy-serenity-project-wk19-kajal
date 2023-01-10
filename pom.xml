@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.bestbuy</groupId>
-  <artifactId>p2-sw9-bestbuy-serenity-project-harshit-patel</artifactId>
+  <artifactId>p1-bestbuy-serenity-project-wk19-kajal</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>p2-sw9-bestbuy-serenity-project-harshit-patel</name>
+  <name>p1-bestbuy-serenity-project-wk19-kajal</name>
   <url>http://maven.apache.org</url>
 
   <properties>

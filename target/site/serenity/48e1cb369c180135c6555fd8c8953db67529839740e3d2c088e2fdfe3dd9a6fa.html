@@ -38,7 +38,7 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0],
+                ['Passing', 1],
                 
                 ['Pending', 0],
                 
@@ -46,7 +46,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors',  1],
+                ['Errors',  0],
                 ['Compromised',  0]
             ]
         ], {
@@ -77,18 +77,18 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 / 4 tests passed' },
-                {label: '0 / 4 tests pending'},
-                {label: '0 / 4 tests not executed'},
-                {label: '0 / 4 tests failed'},
-                {label: '4 / 4 errors'},
-                {label: '0 / 4 compromised tests'}
+                {label: '5 / 5 tests passed' },
+                {label: '0 / 5 tests pending'},
+                {label: '0 / 5 tests not executed'},
+                {label: '0 / 5 tests failed'},
+                {label: '0 / 5 errors'},
+                {label: '0 / 5 compromised tests'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0],
+                ['Passing', 1],
                 
                 ['Pending', 0],
                 
@@ -96,7 +96,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors', 1],
+                ['Errors', 0],
                 ['Compromised', 0],
             ]
         ], {
@@ -128,11 +128,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 / 4 tests passed (0% of all test steps)' },
-                {label: '0 / 4 tests pending'},
-                {label: '0 / 4 tests not executed'},
-                {label: '0 / 4 tests failed (0% of all test steps)'},
-                {label: '4 / 4 errors (1% of all test steps)'}
+                {label: '5 / 5 tests passed (1% of all test steps)' },
+                {label: '0 / 5 tests pending'},
+                {label: '0 / 5 tests not executed'},
+                {label: '0 / 5 tests failed (0% of all test steps)'},
+                {label: '0 / 5 errors (0% of all test steps)'}
             ]
         });
 
@@ -179,8 +179,8 @@
 <div id="contenttop">
     <div class="middlebg">
         <span class="breadcrumbs"><a href="index.html">Home</a>
-                > Story 
-                > Product CURD Test (Unsuccessful Tests)
+                > Feature 
+                > Testing Different Request On Store Section Of Bestbuy (Passi&hellip;
         </span>
     </div>
     <div class="rightbg"></div>
@@ -198,7 +198,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-01-2023 21:48</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-01-2023 21:48</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -207,34 +207,26 @@
 <div class="middlb">
 <div class="table">
 
-<h2><i class='fa fa-tags'></i> Story: Product CURD Test (Unsuccessful Tests)</h2>
+<h2><i class='fa fa-tags'></i> Feature: Testing Different Request On Store Section Of Bestbuy (Passing Tests)</h2>
 <table class='overview'>
     <tr>
         <td width="375px" valign="top">
             <div class="test-count-summary">
-                <span class="test-count-title">4
+                <span class="test-count-title">5
                     test scenarios </span>
                 <div>
 
                     <span class="test-count"> |
-                        4
-unsuccessful
-                    </span>(
-                    <span class="test-count">
-                        0
-failed,
+                        5
+passed
                     </span>
-                    <span class="test-count">
-                        4
-errors
-                    </span>)
 
                 
 
 
 
                  |
-                    <a href="819568cf349f1b70c7835d1c6e6d8e7a8511f2239177c9002fe00797de0057c3.csv" title="Download CSV"> <i class="fa fa-download" title="Download CSV"></i></a>
+                    <a href="0a7cad1dcfea36353937b4089e8668404d794df031846a0e2285318ca5c82408.csv" title="Download CSV"> <i class="fa fa-download" title="Download CSV"></i></a>
                 </div>
             </div>
 
@@ -278,9 +270,9 @@ errors
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>4</td>
+            <td>5</td>
+            <td>5 (100%)</td>
             <td>0 (0%)</td>
-            <td>4 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -294,15 +286,15 @@ errors
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>4</td>
+            <td>5</td>
+            <td>5 (100%)</td>
             <td>0 (0%)</td>
-            <td>4 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">17 seconds</td>
+                <td colspan="5">1 seconds</td>
         </tr>
         </body>
     </table>
@@ -319,13 +311,13 @@ errors
         <table class="test-summary-table">
             <tr>
                 <td colspan="3">
-                    <div class="tagTypeTitle">Stories</div>
+                    <div class="tagTypeTitle">Features</div>
                 </td>
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="ERROR-text ellipsis">
-                                <a href="143f6c7475469de431dd675eb7d29e9e659cc3fe0ef4c84d31727796076ba949.html" title="Product CURD Test">Product CURD Test</a>
+                        <span class="SUCCESS-text ellipsis">
+                                <a href="58cf65fe4f715d0f802f5cccc99275ccc8b1f2c16aa02a0cca8e9d9319375d18.html" title="Testing Different Request On Store Section Of Bestbuy">Testing Different Request On Store Section Of Bestbuy</a>
                         </span>
                     </td>
                     <td width="220px" class="table-figure">
@@ -333,27 +325,27 @@ errors
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="0 out of 4 tests (0 steps) passing">0%</span></td>
+                                <td class="related-tag-percentage"><span title="5 out of 5 tests (42 steps) passing">100%</span></td>
                                 <td width="150px">
-                                    <a href="143f6c7475469de431dd675eb7d29e9e659cc3fe0ef4c84d31727796076ba949.html">
+                                    <a href="58cf65fe4f715d0f802f5cccc99275ccc8b1f2c16aa02a0cca8e9d9319375d18.html">
                                         <div class="pendingbar"
-                                             title="0 out of 4 tests (0 steps) pending"
+                                             title="0 out of 5 tests (0 steps) pending"
                                              style="width: 150px;">
                                             <div class="ignoredbar"
                                                  style="width: 150px;"
-                                                 title="0 out of 4 tests (0 steps) skipped or ignored">
+                                                 title="0 out of 5 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
                                                      style="width: 150px;"
-                                                     title="0 out of 4 tests (0 steps) compromised">
+                                                     title="0 out of 5 tests (0 steps) compromised">
                                                     <div class="errorbar"
                                                          style="width: 150px;"
-                                                         title="4 out of 4 tests (14 steps) broken">
+                                                         title="0 out of 5 tests (0 steps) broken">
                                                         <div class="failingbar"
-                                                             style="width: 0px;"
-                                                             title="0 out of 4 tests (0 steps) failing">
+                                                             style="width: 150px;"
+                                                             title="0 out of 5 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 0px;"
-                                                                 title="0 out of 4 tests (0 steps) passing">
+                                                                 style="width: 150px;"
+                                                                 title="5 out of 5 tests (42 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -362,7 +354,7 @@ errors
                                         </div>
                                     </a>
                                 </td>
-                                <td class="related-tag-count"><span class="result-test-count" title="4 tests">4</span></td>
+                                <td class="related-tag-count"><span class="result-test-count" title="5 tests">5</span></td>
                             </tr>
                         </table>
                     </td>
@@ -377,7 +369,7 @@ errors
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 4) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 8) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -409,9 +401,9 @@ errors
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>4</td>
+            <td>5</td>
+            <td>5 (100%)</td>
             <td>0 (0%)</td>
-            <td>4 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -425,15 +417,15 @@ errors
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>4</td>
+            <td>5</td>
+            <td>5 (100%)</td>
             <td>0 (0%)</td>
-            <td>4 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">17 seconds</td>
+                <td colspan="5">1 seconds</td>
         </tr>
         </body>
     </table>
@@ -450,13 +442,13 @@ errors
         <table class="test-summary-table">
             <tr>
                 <td colspan="3">
-                    <div class="tagTypeTitle">Stories</div>
+                    <div class="tagTypeTitle">Features</div>
                 </td>
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="ERROR-text ellipsis">
-                                <a href="143f6c7475469de431dd675eb7d29e9e659cc3fe0ef4c84d31727796076ba949.html" title="Product CURD Test">Product CURD Test</a>
+                        <span class="SUCCESS-text ellipsis">
+                                <a href="58cf65fe4f715d0f802f5cccc99275ccc8b1f2c16aa02a0cca8e9d9319375d18.html" title="Testing Different Request On Store Section Of Bestbuy">Testing Different Request On Store Section Of Bestbuy</a>
                         </span>
                     </td>
                     <td width="220px" class="table-figure">
@@ -464,27 +456,27 @@ errors
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="0 out of 4 tests (0 steps) passing">0%</span></td>
+                                <td class="related-tag-percentage"><span title="5 out of 5 tests (42 steps) passing">100%</span></td>
                                 <td width="150px">
-                                    <a href="143f6c7475469de431dd675eb7d29e9e659cc3fe0ef4c84d31727796076ba949.html">
+                                    <a href="58cf65fe4f715d0f802f5cccc99275ccc8b1f2c16aa02a0cca8e9d9319375d18.html">
                                         <div class="pendingbar"
-                                             title="0 out of 4 tests (0 steps) pending"
+                                             title="0 out of 5 tests (0 steps) pending"
                                              style="width: 150px;">
                                             <div class="ignoredbar"
                                                  style="width: 150px;"
-                                                 title="0 out of 4 tests (0 steps) skipped or ignored">
+                                                 title="0 out of 5 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
                                                      style="width: 150px;"
-                                                     title="0 out of 4 tests (0 steps) compromised">
+                                                     title="0 out of 5 tests (0 steps) compromised">
                                                     <div class="errorbar"
                                                          style="width: 150px;"
-                                                         title="4 out of 4 tests (14 steps) broken">
+                                                         title="0 out of 5 tests (0 steps) broken">
                                                         <div class="failingbar"
-                                                             style="width: 0px;"
-                                                             title="0 out of 4 tests (0 steps) failing">
+                                                             style="width: 150px;"
+                                                             title="0 out of 5 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 0px;"
-                                                                 title="0 out of 4 tests (0 steps) passing">
+                                                                 style="width: 150px;"
+                                                                 title="5 out of 5 tests (42 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -493,7 +485,7 @@ errors
                                         </div>
                                     </a>
                                 </td>
-                                <td class="related-tag-count"><span class="result-test-count" title="4 tests">4</span></td>
+                                <td class="related-tag-count"><span class="result-test-count" title="5 tests">5</span></td>
                             </tr>
                         </table>
                     </td>
@@ -529,96 +521,119 @@ errors
                         </thead>
                         <tbody>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="86b58dfa77d49ba72e9af8c3ba8a335ba256d83ca957d6dc9c1553eb4c2e5f02.html" class="ellipsis"
-                                           title="This will create new product Runtime exception: Some exception dur...">
-                                            This will create new product
+                                        <a href="92ec81cd685c25d55655d293fdd68d0f832402549ae0af9635b33c33a630588f.html" class="ellipsis"
+                                           title="Creating store data ">
+                                            Creating store data
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">3</td>
+                                <td class="SUCCESS-text">7</td>
 
 
-                                <td class="ERROR-text" data-sort="2023-01-09 21:47:36">21:47:36</td>
+                                <td class="SUCCESS-text" data-sort="2023-01-10 21:48:25">21:48:25</td>
 
-                                <td class="ERROR-text">4.18</td>
+                                <td class="SUCCESS-text">0.08</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="8d7916f577b1f3befc154b54f51218c9da0e53e1bca45720189242724ebcdf91.html" class="ellipsis"
-                                           title="Verify if the product was added to application Null pointer exception: Cannot invoke...">
-                                            Verify if the product was added to application
+                                        <a href="0ae6035e9150d4285e491c61bc079a07ef7d54435083cc15832f15797cca28fd.html" class="ellipsis"
+                                           title="Verify store is created by getting Store info by given Id ">
+                                            Verify store is created by getting Store info by given Id
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">3</td>
+                                <td class="SUCCESS-text">7</td>
 
 
-                                <td class="ERROR-text" data-sort="2023-01-09 21:47:40">21:47:40</td>
+                                <td class="SUCCESS-text" data-sort="2023-01-10 21:48:25">21:48:25</td>
 
-                                <td class="ERROR-text">4.13</td>
+                                <td class="SUCCESS-text">0.09</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="0ec318cb601fde18aab0f0dc4f6bbe6818b1520fbc533b5e62adfea1554b7d88.html" class="ellipsis"
-                                           title="This will update product Runtime exception: Some exception dur...">
-                                            This will update product
+                                        <a href="5b87a31747b2722948b9bb3fc181361da59f725f09695c985af5074f49fae7b4.html" class="ellipsis"
+                                           title="Updating newly added store detail ">
+                                            Updating newly added store detail
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">4</td>
+                                <td class="SUCCESS-text">5</td>
 
 
-                                <td class="ERROR-text" data-sort="2023-01-09 21:47:44">21:47:44</td>
+                                <td class="SUCCESS-text" data-sort="2023-01-10 21:48:26">21:48:26</td>
 
-                                <td class="ERROR-text">4.11</td>
+                                <td class="SUCCESS-text">0.09</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="7ee697f66b98581eb373cd609495a343af08525514c6f942105635e43302b85c.html" class="ellipsis"
-                                           title="This will delete product Runtime exception: Some exception dur...">
-                                            This will delete product
+                                        <a href="52f29364648505582440bd4b1122f2557a290e16fa3a7648becf60455ff1f062.html" class="ellipsis"
+                                           title="Deleting store by given Id ">
+                                            Deleting store by given Id
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">4</td>
+                                <td class="SUCCESS-text">8</td>
 
 
-                                <td class="ERROR-text" data-sort="2023-01-09 21:47:48">21:47:48</td>
+                                <td class="SUCCESS-text" data-sort="2023-01-10 21:48:26">21:48:26</td>
 
-                                <td class="ERROR-text">4.11</td>
+                                <td class="SUCCESS-text">0.11</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="f0b38b6884cffdb423d6d31a024011b5bc002bd55e7c7473a26db0fba4700da1.html" class="ellipsis"
+                                           title="CURD TEST ">
+                                            CURD TEST
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">15</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2023-01-10 21:48:26">21:48:26</td>
+
+                                <td class="SUCCESS-text">0.21</td>
                             </tr>
                         </tbody>
                     </table>

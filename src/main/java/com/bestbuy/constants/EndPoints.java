@@ -1,5 +1,5 @@
 package com.bestbuy.constants;
-// **** Created By Harshit Patel ****
+
 
 public class EndPoints {
 

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="p2-sw9-bestbuy-serenity-project-harshit-patel" />
+        <module name="p1-bestbuy-serenity-project-wk19-kajal" />
       </profile>
     </annotationProcessing>
   </component>
